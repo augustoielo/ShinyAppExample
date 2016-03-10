@@ -24,14 +24,13 @@ This really simple Shiny App shows a regression example between temperature in d
 
 The app includes 3 checkbox and some dropdown inputs controlling these values:
 
-*Y Transformation                  To take transformation of y variable(stopping distance)
-*X Transformation                  To take transformation of x variable(car speed)
-*Fit a curve line to the data      Fit a line on the plot
-    **Log                           Log transformation
-    **Square Root                   Square root transformation
-*95% Confidence Interval           Draw a 95% confidence interval range
+- Y Transformation: transformation of y variable (pressure)
+- X Transformation: transformation of x variable (temperature)
+- Fit a curve line to the data: fit a line on the plot
+- Log: log transformation
+- Square Root: square root transformation
+- 95% Confidence Interval: draw a 95% confidence interval range
   
-
 ## 3. Run the Shiny Application
 
 Go to [https://augustoielo.shinyapps.io/ExampleApp/](https://augustoielo.shinyapps.io/ExampleApp/)
