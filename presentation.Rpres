@@ -1,0 +1,38 @@
+Shiny App Example
+========================================================
+author: Augusto Ielo
+date: 2016/10/03
+transition:rotate
+
+App
+============================
+
+Shiny Application
+* URL: [https://augustoielo.shinyapps.io/ExampleApp/](https://augustoielo.shinyapps.io/ExampleApp/)
+* A shiny-App showing a really simple regression model between temperature in degrees Celsius and vapor pressure of mercury in millimeters (of mercury).
+
+
+
+Pressure dataset - Description
+========================================================
+
+A data frame with 19 observations on 2 variables that gives the Vapor Pressure of Mercury as a Function of Temperature.
+
+* temperature	numeric	temperature (deg C)
+* pressure	numeric	pressure (mm)
+
+Source: Weast, R. C., ed. (1973) Handbook of Chemistry and Physics. CRC Press.
+
+References: McNeil, D. R. (1977) Interactive Data Analysis. New York: Wiley.
+
+Pressure dataset - Summary
+========================================================
+
+```{r}
+summary(pressure)
+```
+
+User Interface
+========================================================
+
+![User Interface](./presentation-figure/UI.PNG)
